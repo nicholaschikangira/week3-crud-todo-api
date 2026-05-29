@@ -1,16 +1,26 @@
 {
   "name": "week3-crud-api-",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/nicholaschikangira/week3-crud-todo-api#readme",
+  "bugs": {
+    "url": "https://github.com/nicholaschikangira/week3-crud-todo-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicholaschikangira/week3-crud-todo-api.git"
+  },
+  "license": "ISC",
+  "author": "Nicholas",
+  "type": "commonjs",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.1.0"
   },
   "devDependencies": {
